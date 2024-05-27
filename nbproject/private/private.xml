@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/sanh6/coffee-management/src/GiaoDien/QuanLyThucDon.java</file>
+            <file>file:/C:/Users/sanh6/coffee-management/src/GiaoDien/QuanLyChung.java</file>
+            <file>file:/C:/Users/sanh6/coffee-management/src/DTO/Account.java</file>
+            <file>file:/C:/Users/sanh6/coffee-management/src/DAO/MenuDAO.java</file>
+            <file>file:/C:/Users/sanh6/coffee-management/src/GiaoDien/QuanLyBan.java</file>
+            <file>file:/C:/Users/sanh6/coffee-management/src/DTO/Orders.java</file>
+            <file>file:/C:/Users/sanh6/coffee-management/src/DAO/DrinksDAO.java</file>
+            <file>file:/C:/Users/sanh6/coffee-management/src/DTO/Tables.java</file>
+            <file>file:/C:/Users/sanh6/coffee-management/nbproject/build-impl.xml</file>
+            <file>file:/C:/Users/sanh6/coffee-management/src/Utilities/DBUtility.java</file>
+            <file>file:/C:/Users/sanh6/coffee-management/src/DTO/Drinks.java</file>
+            <file>file:/C:/Users/sanh6/coffee-management/src/DAO/BillDAO.java</file>
+            <file>file:/C:/Users/sanh6/coffee-management/nbproject/genfiles.properties</file>
+            <file>file:/C:/Users/sanh6/coffee-management/src/GiaoDien/MenuDangNhap.java</file>
+            <file>file:/C:/Users/sanh6/coffee-management/src/GiaoDien/DoiMatKhau.java</file>
+            <file>file:/C:/Users/sanh6/coffee-management/src/DAO/InvoicesDAO.java</file>
+            <file>file:/C:/Users/sanh6/coffee-management/src/DTO/DrinkItem.java</file>
+            <file>file:/C:/Users/sanh6/coffee-management/src/DAO/AccountDAO.java</file>
+            <file>file:/C:/Users/sanh6/coffee-management/src/GiaoDien/ThemTaiKhoan.java</file>
+            <file>file:/C:/Users/sanh6/coffee-management/src/GiaoDien/QuanLyThongKe.java</file>
+            <file>file:/C:/Users/sanh6/coffee-management/src/GiaoDien/QuanLyDoUong.java</file>
+            <file>file:/C:/Users/sanh6/coffee-management/src/DAO/TablesDAO.java</file>
+            <file>file:/C:/Users/sanh6/coffee-management/src/DTO/Invoices.java</file>
+            <file>file:/C:/Users/sanh6/coffee-management/src/DTO/Bill.java</file>
+            <file>file:/C:/Users/sanh6/coffee-management/src/DAO/OrdersDAO.java</file>
+            <file>file:/C:/Users/sanh6/coffee-management/src/DTO/Menu.java</file>
+        </group>
+    </open-files>
+</project-private>

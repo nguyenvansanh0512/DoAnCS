@@ -1,0 +1,9 @@
+HÓA ĐƠN #12
+Người bán:Admin
+Bàn số: Bàn số 1
+Tên đồ uống: cafe đen | Số lượng: 3 | Đơn giá: 10000.0 VNĐ
+Tên đồ uống: cafe sữa | Số lượng: 2 | Đơn giá: 15000.0 VNĐ
+Tên đồ uống: bạc sĩu | Số lượng: 5 | Đơn giá: 20000.0 VNĐ
+Ngày đặt: 2024-05-28 00:27:16
+Tổng cộng: 250000.0 VNĐ
+----------------------------------
