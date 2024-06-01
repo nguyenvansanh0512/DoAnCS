@@ -49,4 +49,21 @@ public class DrinksDAO {
         }
         return list;
     }
+    
+    public int getDrinkIdByName(String drinkName) {
+    Connection con = DBUtility.openConnection();
+    int drinkId = -1;
+    try {
+        PreparedStatement pstmt = con.prepareStatement("SELECT `ID` FROM `drinks` WHERE `name` = ?");
+        pstmt.setString(1, drinkName);
+        ResultSet rs = pstmt.executeQuery();
+        if (rs.next()) {
+            drinkId = rs.getInt("ID");
+        }
+    } catch (SQLException ex) {
+        Logger.getLogger(DrinksDAO.class.getName()).log(Level.SEVERE, null, ex);
+    }
+    return drinkId;
+}
+
 }

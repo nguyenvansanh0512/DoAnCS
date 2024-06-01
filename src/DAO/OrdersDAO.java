@@ -68,4 +68,57 @@ public class OrdersDAO {
         }
         return false;
     }
+    public Boolean UpdateCount(int drinkId, int invoiceId, int count) {
+    Connection con = DBUtility.openConnection();
+    try {
+        PreparedStatement pstmt = con.prepareStatement("UPDATE `orders` SET `count` = `count` + ? WHERE `drinks_ID` = ? AND `invoice_ID` = ?");
+        pstmt.setInt(1, count);
+        pstmt.setInt(2, drinkId);
+        pstmt.setInt(3, invoiceId);
+        int i = pstmt.executeUpdate();
+        if (i > 0) {
+            return true;
+        }
+    } catch (SQLException ex) {
+        Logger.getLogger(OrdersDAO.class.getName()).log(Level.SEVERE, null, ex);
+    }
+    return false;
+}
+
+public Boolean CheckOrderExist(int drinkId, int invoiceId) {
+    Connection con = DBUtility.openConnection();
+    try {
+        PreparedStatement pstmt = con.prepareStatement("SELECT * FROM `orders` WHERE `drinks_ID` = ? AND `invoice_ID` = ?");
+        pstmt.setInt(1, drinkId);
+        pstmt.setInt(2, invoiceId);
+        ResultSet rs = pstmt.executeQuery();
+        if (rs.next()) {
+            return true;
+        }
+    } catch (SQLException ex) {
+        Logger.getLogger(OrdersDAO.class.getName()).log(Level.SEVERE, null, ex);
+    }
+    return false;
+}
+
+public Boolean DeleteOrder(int drinkId, int invoiceId) {
+    Connection con = DBUtility.openConnection();
+    try {
+        PreparedStatement pstmt = con.prepareStatement("DELETE FROM `orders` WHERE `drinks_ID` = ? AND `invoice_ID` = ?");
+        pstmt.setInt(1, drinkId);
+        pstmt.setInt(2, invoiceId);
+        int i = pstmt.executeUpdate();
+        if (i > 0) {
+            return true;
+        }
+    } catch (SQLException ex) {
+        Logger.getLogger(OrdersDAO.class.getName()).log(Level.SEVERE, null, ex);
+    }
+    return false;
+}
+
+
+    
+    
+
 }

@@ -329,11 +329,11 @@ public class QuanLyDoUong extends javax.swing.JFrame {
         if (idSave >= 0) {
             Connection con = DBUtility.openConnection();
             try {
-                PreparedStatement pstmt = con.prepareStatement("update drinks set name=?, price=?, start_date=?, end_date=? where ID=?");
+                PreparedStatement pstmt = con.prepareStatement("update drinks set name=?, price=? where ID=?");
                 pstmt.setString(1, txtDrinkName.getText());
                 pstmt.setString(2, txtPrice.getText());
                
-                pstmt.setInt(5, idSave);
+                pstmt.setInt(3, idSave);
                 int i = pstmt.executeUpdate();
                 if (i > 0) {
                     displayTable();
